@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\bin\Debug\SoundControllerWPFApp.exe.config
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\bin\Debug\SoundControllerWPFApp.exe
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\bin\Debug\SoundControllerWPFApp.pdb
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\SoundControllerWPFApp.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\SoundControllerWPFApp_MarkupCompile.cache
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\SoundControllerWPFApp_MarkupCompile.lref
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\SoundControllerWPFApp.g.resources
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\SoundControllerWPFApp.Properties.Resources.resources
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\SoundControllerWPFApp.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\SoundControllerWPFApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\SoundControllerWPFApp.exe
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\SoundControllerWPFApp\SoundControllerWPFApp\obj\Debug\SoundControllerWPFApp.pdb
