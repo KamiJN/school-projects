@@ -1,0 +1,191 @@
+﻿<Window x:Class="PanelsExercise_FormApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PanelsExercise_FormApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="350" Background="AntiqueWhite">
+    <GroupBox Margin="5" 
+              BorderBrush="RosyBrown" 
+              BorderThickness="2">
+        <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button Content="Apply" 
+                    Background="RosyBrown" 
+                    Foreground="white" 
+                    Width="auto"
+                    Grid.Column="0"
+                    Margin="5 10"/>
+                <Button Content="Reset" 
+                    Background="RosyBrown" 
+                    Foreground="white"
+                    Width="auto" 
+                    Grid.Column="1"
+                    Margin="2 10"/>
+                <Button Content="Refresh" 
+                    Background="RosyBrown" 
+                    Foreground="white"
+                    Width="auto"
+                    Grid.Column="2"
+                    Margin="5 10"/>
+            </Grid>
+            <StackPanel Orientation="Vertical">
+                <Label Content="Pulse Properties" 
+                       FontWeight="Bold" 
+                       Foreground="RosyBrown"/>
+                <Label Content="Description"
+                       Foreground="RosyBrown"/>
+                <TextBox Margin="5 -2"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="120"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Status"
+                           Foreground="RosyBrown"
+                           Grid.Row="0"
+                           Grid.Column="0"/>
+                    <TextBox Margin="5 0"
+                             Grid.Row="1"
+                             Grid.Column="0"/>
+                    <Label Content="Revision"
+                           Foreground="RosyBrown"
+                           Grid.Row="0"
+                           Grid.Column="1"/>
+                    <TextBox Margin="5 0"
+                             Grid.Row="1"
+                             Grid.Column="1"/>
+                </Grid>
+                <Label Content="Part Number"
+                       Foreground="RosyBrown"/>
+                <TextBox Margin="5 -2"/>
+                <Label Content="Raw Material" 
+                       FontWeight="Bold" 
+                       Foreground="RosyBrown"
+                       Margin="0 6 0 -4"/>
+                <Label Content="Material"
+                       Foreground="RosyBrown"/>
+                <ComboBox Margin="5 -2"></ComboBox>
+                <Label Content="Manufacturing Information" 
+                       FontWeight="Bold" 
+                       Foreground="RosyBrown"
+                       Margin="0 6 0 -4"/>
+                <Label Content="Work Centres"
+                       Foreground="RosyBrown"/>
+            </StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <CheckBox Content="Weld"
+                      Foreground="RosyBrown"
+                      Margin="5 -2"
+                      Grid.Column="0"
+                      Grid.Row="0"/>
+                <CheckBox Content="Assembly"
+                      Foreground="RosyBrown"
+                      Margin="5"
+                      Grid.Column="0"
+                      Grid.Row="1"/>
+                <CheckBox Content="Plasma"
+                      Foreground="RosyBrown"
+                      Margin="5 -2"
+                      Grid.Column="0"
+                      Grid.Row="2"/>
+                <CheckBox Content="Laser"
+                      Foreground="RosyBrown"
+                      Margin="5"
+                      Grid.Column="0"
+                      Grid.Row="3"/>
+                <CheckBox Content="Purchase"
+                      Foreground="RosyBrown"
+                      Margin="5 -2"
+                      Grid.Column="0"
+                      Grid.Row="4"/>
+
+                <CheckBox Content="Lathe"
+                      Foreground="RosyBrown"
+                      Margin="5 -2"
+                      Grid.Column="1"
+                      Grid.Row="0"/>
+                <CheckBox Content="Dril"
+                      Foreground="RosyBrown"
+                      Margin="5"
+                      Grid.Column="1"
+                      Grid.Row="1"/>
+                <CheckBox Content="Fold"
+                      Foreground="RosyBrown"
+                      Margin="5 -2"
+                      Grid.Column="1"
+                      Grid.Row="2"/>
+                <CheckBox Content="Roll"
+                      Foreground="RosyBrown"
+                      Margin="5"
+                      Grid.Column="1"
+                      Grid.Row="3"/>
+                <CheckBox Content="Saw"
+                      Foreground="RosyBrown"
+                      Margin="5 -2"
+                      Grid.Column="1"
+                      Grid.Row="4"/>
+            </Grid>
+            <Label Content="Length"
+                   Foreground="RosyBrown"/>
+            <TextBox Margin="5 -2"/>
+            <Label Content="Mass"
+                   Foreground="RosyBrown"/>
+            <TextBox Margin="5 -2"/>
+            <Label Content="Finish"
+                       Foreground="RosyBrown"/>
+            <ComboBox Margin="5 -2"
+                      SelectedIndex="0" 
+                      Foreground="RosyBrown">
+                <ComboBoxItem>Painted</ComboBoxItem>
+            </ComboBox>
+            <Label Content="Purchase Information"
+                       Foreground="RosyBrown"/>
+            <ComboBox Margin="5 -2" 
+                      SelectedIndex="0" 
+                      Foreground="RosyBrown">
+                <ComboBoxItem>Rubber</ComboBoxItem>
+            </ComboBox>
+            <Label Content="Supplier Name"
+                   Foreground="RosyBrown"/>
+            <TextBox Margin="5 -2"/>
+            <Label Content="Supplier Code"
+                   Foreground="RosyBrown"/>
+            <TextBox Margin="5 -2"/>
+            <Label Content="Additional Information" 
+                       FontWeight="Bold" 
+                       Foreground="RosyBrown"
+                       Margin="0 6 0 -4"/>
+            <DockPanel>
+                <Label Content="Note"
+                   Foreground="RosyBrown"/>
+                <TextBox Margin="5 -2" Height="20"/>
+            </DockPanel>
+        </StackPanel>
+    </GroupBox>
+</Window>

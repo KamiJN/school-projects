@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\bin\Debug\PanelsExercise-FormApp.exe.config
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\bin\Debug\PanelsExercise-FormApp.exe
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\bin\Debug\PanelsExercise-FormApp.pdb
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\PanelsExercise-FormApp.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\PanelsExercise-FormApp_MarkupCompile.cache
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\PanelsExercise-FormApp_MarkupCompile.lref
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\PanelsExercise-FormApp.g.resources
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\PanelsExercise_FormApp.Properties.Resources.resources
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\PanelsExercise-FormApp.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\PanelsExercise-FormApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\PanelsExercise-FormApp.exe
+C:\Users\Admin\Desktop\ToDo\Today'sWorkList\PanelsExercise-FormApp\PanelsExercise-FormApp\obj\Debug\PanelsExercise-FormApp.pdb
