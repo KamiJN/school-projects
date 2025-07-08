@@ -1,0 +1,22 @@
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\bin\Debug\DNAConstructionApp.exe.config
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\bin\Debug\DNAConstructionApp.exe
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\bin\Debug\DNAConstructionApp.pdb
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\obj\Debug\DNAConstructionApp.csproj.AssemblyReference.cache
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\obj\Debug\DNAConstructionApp.csproj.CoreCompileInputs.cache
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\obj\Debug\DNAConstructionApp.exe
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\obj\Debug\DNAConstructionApp.pdb
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\bin\Debug\DNAConstructionApp.exe.manifest
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\bin\Debug\DNAConstructionApp.application
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\obj\Debug\DNAConstructionApp.exe.manifest
+C:\Users\Uzytkownik\OneDrive - Zespół Szkół Zawodowych im. Stanisława Staszica w Aleksandrowie Łódzkim\Pulpit\TO LEARN\DNAConstructionApp\obj\Debug\DNAConstructionApp.application
+F:\DNAConstructionApp\obj\Debug\DNAConstructionApp.csproj.AssemblyReference.cache
+F:\DNAConstructionApp\obj\Debug\DNAConstructionApp.csproj.CoreCompileInputs.cache
+F:\DNAConstructionApp\obj\Debug\DNAConstructionApp.exe
+F:\DNAConstructionApp\obj\Debug\DNAConstructionApp.pdb
+F:\DNAConstructionApp\bin\Debug\DNAConstructionApp.exe.config
+F:\DNAConstructionApp\bin\Debug\DNAConstructionApp.exe.manifest
+F:\DNAConstructionApp\bin\Debug\DNAConstructionApp.application
+F:\DNAConstructionApp\bin\Debug\DNAConstructionApp.exe
+F:\DNAConstructionApp\bin\Debug\DNAConstructionApp.pdb
+F:\DNAConstructionApp\obj\Debug\DNAConstructionApp.exe.manifest
+F:\DNAConstructionApp\obj\Debug\DNAConstructionApp.application

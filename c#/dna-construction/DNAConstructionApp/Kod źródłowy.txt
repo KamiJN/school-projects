@@ -1,0 +1,85 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading;
+
+namespace DNAConstructionApp
+{
+    internal class Program
+    {
+        static void RandomNucleotyde(int currentBaseIndex, ref char currentBond, ref int nextBaseIndex)
+        {
+            if (currentBaseIndex == 0)
+            {
+                nextBaseIndex = 1;
+                currentBond = '=';
+            }
+            if (currentBaseIndex == 1)
+            {
+                nextBaseIndex = 0;
+                currentBond = '=';
+            }
+            if (currentBaseIndex == 2)
+            {
+                nextBaseIndex = 3;
+                currentBond = Convert.ToChar(926);
+            }
+            if (currentBaseIndex == 3)
+            {
+                nextBaseIndex = 2;
+                currentBond = Convert.ToChar(926);
+            }
+        }
+        static void WriteXY(int x, int y, string text)
+        {
+            Console.SetCursorPosition(x, y);
+            Console.Write(text);
+        }
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+
+            List<char> nitrogenousBases = new List<char>() { 'A', 'T', 'C', 'G' };
+            Random r = new Random();
+            char currentBond = Convert.ToChar(926);
+            int y = 7, numberOfNucleotides, counter = 0, nextBaseIndex = 0, currentBaseIndex;
+
+            WriteXY(6, 2, "******** Budowa DNA ********");
+            WriteXY(6, 3, "Z ilu nukleotydów ma się składać ten kwas DNA?: ");
+            numberOfNucleotides = int.Parse(Console.ReadLine());
+
+            WriteXY(15, y, "5'");
+            WriteXY(15, ++y, "P");
+            WriteXY(15, ++y, "|");
+            WriteXY(27, y, "3'");
+
+            do
+            {
+                currentBaseIndex = r.Next(nitrogenousBases.Count);
+                RandomNucleotyde(currentBaseIndex, ref currentBond, ref nextBaseIndex);
+                WriteXY(15, ++y, $"D - {nitrogenousBases[currentBaseIndex]} {currentBond} {nitrogenousBases[nextBaseIndex]} - D");
+                Thread.Sleep(500);
+                WriteXY(15, ++y, "|");
+                WriteXY(27, y, "|");
+                WriteXY(15, ++y, "P");
+                WriteXY(27, y, "P");
+                WriteXY(15, ++y, "|");
+                WriteXY(27, y, "|");
+                counter++;
+                Thread.Sleep(500);
+            } while (counter != numberOfNucleotides - 1);
+
+            currentBaseIndex = r.Next(nitrogenousBases.Count);
+            RandomNucleotyde(currentBaseIndex, ref currentBond, ref nextBaseIndex);
+            WriteXY(15, ++y, $"D - {nitrogenousBases[currentBaseIndex]} {currentBond} {nitrogenousBases[nextBaseIndex]} - D");
+
+            WriteXY(15, ++y, "3'");
+            WriteXY(27, y, "|");
+            WriteXY(27, ++y, "P");
+            WriteXY(27, ++y, "5'");
+
+            WriteXY(15, y += 3, "Wciśnij dowolny klawisz, aby zakończyć działanie programu...\n\n");
+            Console.ReadKey();
+        }
+    }
+}
