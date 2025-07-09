@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontakt</title>
+        <link rel="stylesheet" type="text/css" href="../assets/styles/main.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/styles/contact.css" />
+        <link rel="shortcut icon" href="../assets/img/icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <video playsinline autoplay muted loop poster="../assets/img/poster.png" class="bgVideo">
+            <source src="../assets/img/Video.mp4" visibility="off">
+        </video>
+
+        <div class="content">
+            <nav class="navbar">
+                <img src="../assets/img/logo.png" alt="logo">
+
+                <a id="no-active" href="../index.html"><i class="fa fa-fw fa-home"></i><span> Strona główna</span></a>
+                <a id="active" href="#"><i class="fa fa-fw fa-envelope"></i><span> Kontakt</span></a>
+                <a id="no-active" href="articles.html"><i class="fa fa-star"></i><span> Artykuły</span></a>
+            </nav>
+
+            <section id="contact">
+                <div class="contactContainer">
+                    <div class="column">
+                        <div class="line"></div>
+                        <h1>Kontakt</h1>
+                        <div class="line"></div>
+
+                        <form autocomplete="off" method="post" action="contactForm.php">
+                            <input type="text" placeholder="Twój e-mail" name="email" class="textBox">
+
+                            <input type="text" placeholder="Tytuł wiadomości" name="subject" class="textBox">
+                
+                            <textarea cols="20" rows="10" placeholder="Napisz wiadomość..." name="content"></textarea>
+                
+                            <input type="submit" name="submit" class="submitBtn" value="Wyślij">
+                        </form>
+
+                    </div>
+                    <div class="column bgImg"></div>
+                </div>
+            </section> 
+        </div>
+    </body>
+</html>

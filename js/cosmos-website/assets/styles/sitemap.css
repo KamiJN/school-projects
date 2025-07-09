@@ -1,0 +1,73 @@
+/*Header*/
+header {
+    padding: 3% 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+/*Main*/
+a > h2, hr + h1 {
+    font-size: 1.5rem;
+    font-family: monospace, Lucida Console;
+    font-weight: lighter;
+    color: var(--light-color);
+}
+
+a > h2 {
+    box-shadow: inset 0 0 0 0 var(--main-color);
+    display: inline;
+    box-shadow: inset 0 0 0 0 var(--main-color);
+    transition: all 1s ease-in-out;
+}
+
+ul li a {
+    font-family: monospace, Lucida Console;
+    color: var(--light-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    box-shadow: inset 0 0 0 0 var(--main-color);
+    transition: all 1s ease-in-out;
+}
+
+ul li::marker {
+    color: var(--main-color);
+    font-size: 150%;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+ul {
+    margin: 0 3% 3%;
+    display: inline-block;
+    text-align: left;
+    letter-spacing: 2px;
+    list-style: inside;
+}
+
+ul:first-child {
+    padding: 2% 5%;
+    background-color: var(--dark-color);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+
+}
+
+ul li a:hover, ul h2:hover {
+    box-shadow: inset 0 350px 0 0 var(--main-color), 0 0 15px var(--main-color);
+}
+
+main {
+    text-align: center;
+}
+
+.container {
+    background-image: url('../img/bg_header.jpg');
+    background-attachment: fixed;
+}

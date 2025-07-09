@@ -1,0 +1,113 @@
+.contactContainer {
+	width: 80%;
+	min-height: 300px;
+	margin: 2% auto;	
+	display: flex; 
+}
+
+.contactContainer .column {
+	padding: 10px;
+	flex: 1; 
+    background: transparent;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.contactContainer .column.bgImg {
+    background-size: cover;
+    border-radius: 50%;
+    margin: 4% 2%;
+    animation: animatedBackground 5s linear infinite;
+    box-shadow: 0 0 15px var(--main-color);
+}
+
+@keyframes animatedBackground {
+    0% {
+        background-image: url('../img/firstImg.jpg');
+    }
+    25% {
+        background-image: url('../img/secondImg.jpg');
+    }
+    50% {
+        background-image: url('../img/thirdImg.jpg');
+    }
+    75% {
+        background-image: url('../img/secondImg.jpg');
+    }
+    100% {
+        background-image: url('../img/firstImg.jpg');
+    }
+  }
+
+textarea, .textBox {
+    background-color: var(--dark-color);
+    border: 1px solid var(--main-color);
+    opacity: .7;
+    border-radius: 10px;
+    color: var(--light-color);
+    outline: none;
+    width: 95%;
+    cursor: text;
+    font-family: monospace;
+}
+
+textarea:focus, textarea:hover, 
+.textBox:focus, .textBox:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+section .textBox {
+    box-sizing: border-box;
+    padding: 2% 3%;
+    margin: 2%;
+}
+
+section .textBox:first-child {
+    margin-top: 9%;
+}
+
+section textarea {
+    padding: 2%;
+    margin-top: 5%
+}
+
+
+section .submitBtn {
+    border-radius: 15px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid var(--main-color);
+    padding: 2% 6%;
+    margin: 4% 0;
+}
+
+section .submitBtn:hover{
+    color: #fff;
+    background-color: var(--main-color);
+    box-shadow: 0 0 20px var(--second-color);;
+    transition-duration: 0.7s;
+}
+
+section h1, section .submitBtn {
+    color: var(--light-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 1.5rem;
+    font-family: monospace, Lucida Console;
+    font-weight: lighter;
+    color: var(--light-color);
+    text-transform: uppercase;
+    margin: 2%;
+}
+
+.line {
+    height: 3px;
+    width: 160px;
+    background-color: var(--main-color);
+    box-shadow: 0 0 15px var(--second-color);
+}

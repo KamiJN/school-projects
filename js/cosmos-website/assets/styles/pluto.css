@@ -1,0 +1,148 @@
+hr {
+    margin-top: 4%;
+}
+
+/*Header*/
+header {
+    background-image: url('../img/plutoPage/bgHeader.png');
+}
+
+/*Main*/
+h2, h3 {
+    text-align: center;
+    font-family: monospace, Lucida Console;
+}
+
+.sourceContainer > h3 {
+    margin-top: 4%;
+}
+
+h2 {
+    margin: 4% 4% 0;
+}
+
+span > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Table*/
+table {
+    min-width: 96%;
+}
+
+table > caption {
+    margin: 1% 2%;
+    font: 1.4rem monospace, Lucida Console;
+    font-weight: bolder;
+}
+
+th, td {
+    outline: none;
+}
+
+/*Images*/
+main img {
+    object-fit: cover;
+}
+
+.plutoImg {
+    max-width: 35%;
+    margin: 0 3%;
+    float: right;
+}
+
+.plutoImg + p {
+    margin-top: 6%;
+}
+
+.blueLightImg {
+    border: 1px solid var(--light-color);
+    border-radius: 10px;
+    max-width: 30%;
+    float: left;
+    margin: .5% 3%;
+}
+
+figure {
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+
+figure img {
+    width: 90%;
+    margin: 5% 1% 2%;
+    border: 1px solid var(--light-color);
+    border-radius: 10px;
+}
+
+figcaption {
+    max-width: 90%;
+    font-family: monospace, Lucida Console;
+}
+
+.containerImg {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 4%;
+}
+
+.containerImg .plutosOrbit {
+    filter: grayscale(100);
+    width: 45.5%;
+    margin: 2%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--light-color);
+}
+
+.containerImg .plutosOrbit:last-child {
+    filter: grayscale(0);
+}
+
+.containerImg .plutosOrbit:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.containerImg:hover .plutosOrbit:nth-child(2):hover {
+    opacity: 1;
+}
+
+.containerImg .plutosOrbit:first-child {
+    position: relative;
+}
+
+/*Aside*/
+aside .factImg {
+    width: 20%;
+    border: 1px solid var(--dark-color);
+    border-right: 1px solid var(--light-color);
+}
+
+aside > div {
+    border-radius: 10px;
+    margin: 2% 4%;
+    line-height: 25px;
+    background-color: #7ea6fc21;
+    font-weight: bolder;
+    display: flex;
+    overflow: hidden;
+    min-width: 89%;
+}
+
+aside div div {
+    padding: 2%;
+}
+
+aside > h3 {
+    background-color: #7ea6fc21;
+    padding: 2%;
+    width: 200px;
+    border-radius: 10px;
+}

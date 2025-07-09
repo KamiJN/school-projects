@@ -1,0 +1,103 @@
+hr {
+    margin-top: 4%;
+}
+
+/*Header*/
+header {
+    background-image: url('../img/nebulaePage/bgHeader.png');
+}
+
+/*Main*/
+h2, h3 {
+    text-align: center;
+    font-family: monospace, Lucida Console;
+}
+
+.sourceContainer > h3 {
+    margin-top: 4%;
+}
+
+h2 {
+    margin: 4% 4% 0;
+}
+
+span > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+figcaption > span {
+    font-weight: bolder;
+}
+
+/*Images*/
+figure {
+    text-align: center;
+    width: 90%;
+    margin: 1% 4% 4%;
+}
+
+figure > div {
+    display: flex;
+}
+
+figure img {
+    width: 50%;
+    margin: 3% 0 2%;
+    border: 1px solid var(--light-color);
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+figure img:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+figure + img {
+    border: 1px solid var(--light-color);
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    min-width: 93%;
+    margin: 2% 3%;
+}
+
+figcaption {
+    max-width: 100%;
+    font-family: monospace, Lucida Console;
+}
+
+.linkImg {
+    height: 30px;
+    padding: 0 1%;
+}
+
+/*Types of nebula - list*/
+.nebulaList {
+    list-style: none;
+    margin: 1% 7%;
+}
+
+.nebulaList a {
+    counter-increment: listCounter;
+}
+
+li {
+    margin-top: 1%;
+}
+
+.nebulaList a li::marker {
+    content: "  #" counter(listCounter) "  ";
+    color: var(--main-color);
+    font: 1.4rem Impact, fantasy;
+}
+
+.nebulaList > a {
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+.nebulaList > a:hover {
+    color: var(--main-color);
+}

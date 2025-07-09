@@ -1,0 +1,128 @@
+hr {
+    margin-top: 4%;
+}
+
+/*Header*/
+header {
+    background-image: url('../img/solarSystemPage/bgHeader.png');
+}
+
+/*Main*/
+section {
+    width: 100%;
+    display: flex;
+    margin: 2% 0 5%;
+    text-align: center;
+}
+
+h2, h3 {
+    margin: 4% 4% 0;
+    font-family: monospace, Lucida Console;
+    text-align: center;
+}
+
+span > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.innerContainer {
+    display: flex;
+}
+
+/*Images*/
+.solarSystem {
+    min-width: 60%;
+    border-radius: 10px;
+    margin: 2% 4%;
+    border: 1px solid var(--light-color);
+    filter: grayscale(100);
+}
+
+.asteroidBeltImg {
+    border-radius: 10px;
+    margin: 3% 4% 2%;
+    border: 1px solid var(--light-color);
+    max-width: 50%;
+    float: left;
+}
+
+/* sliderSolarSystem */
+.sliderSolarSystem div img {
+    height: 90%;
+    max-width: 40%;
+    margin: 3% 2% 2%;
+    object-fit: cover;
+    border-radius: 10px;
+    float: left;
+    border: 1px solid var(--light-color);
+}
+
+.sliderSolarSystem {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.sliderSolarSystem > div {
+    flex-shrink: 0;
+    width: 100%;
+    transition: transform 0.5s;
+    color: var(--light-color);
+}
+
+.sliderNav > a {
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    margin: 1%;
+    color: var(--light-color);
+    border: 1px solid var(--light-color);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.sliderNav > a:hover {
+    background: var(--light-color);
+    color: #000;
+    font-weight: bold;
+}
+.sliderNav {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+img + h3 {
+    color: var(--main-color);
+    font: 2rem Impact, fantasy;
+    text-align: center;
+}
+
+/*List of planets*/
+#planetList {
+    list-style: none;
+    margin: 15% 3%;
+    font-size: larger;
+    line-height: 40px;
+}
+
+#planetList a {
+    counter-increment: listCounter;
+}
+
+#planetList a li::marker {
+    content: "  #" counter(listCounter) "  ";
+    color: var(--main-color);
+    font: 1.4rem Impact, fantasy;
+}
+
+#planetList > a {
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+#planetList > a:hover {
+    color: var(--main-color);
+}
